@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF396F0623905C15007904FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF396F0523905C15007904FB /* AppDelegate.swift */; };
+		CF396F0823905C15007904FB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF396F0723905C15007904FB /* GameScene.sks */; };
+		CF396F0A23905C15007904FB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF396F0923905C15007904FB /* Actions.sks */; };
+		CF396F0C23905C15007904FB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF396F0B23905C15007904FB /* GameScene.swift */; };
+		CF396F0E23905C15007904FB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF396F0D23905C15007904FB /* GameViewController.swift */; };
+		CF396F1123905C15007904FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF396F0F23905C15007904FB /* Main.storyboard */; };
+		CF396F1323905C18007904FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF396F1223905C18007904FB /* Assets.xcassets */; };
+		CF396F1623905C18007904FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF396F1423905C18007904FB /* LaunchScreen.storyboard */; };
+		CF396F2123905C18007904FB /* Circle_BossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF396F2023905C18007904FB /* Circle_BossTests.swift */; };
+		CF396F2C23905C18007904FB /* Circle_BossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF396F2B23905C18007904FB /* Circle_BossUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF396F1D23905C18007904FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF396EFA23905C15007904FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF396F0123905C15007904FB;
+			remoteInfo = "Circle Boss";
+		};
+		CF396F2823905C18007904FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF396EFA23905C15007904FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF396F0123905C15007904FB;
+			remoteInfo = "Circle Boss";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF396F0223905C15007904FB /* Circle Boss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circle Boss.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF396F0523905C15007904FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF396F0723905C15007904FB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CF396F0923905C15007904FB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CF396F0B23905C15007904FB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CF396F0D23905C15007904FB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CF396F1023905C15007904FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF396F1223905C18007904FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF396F1523905C18007904FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF396F1723905C18007904FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF396F1C23905C18007904FB /* Circle BossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circle BossTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF396F2023905C18007904FB /* Circle_BossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle_BossTests.swift; sourceTree = "<group>"; };
+		CF396F2223905C18007904FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF396F2723905C18007904FB /* Circle BossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circle BossUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF396F2B23905C18007904FB /* Circle_BossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle_BossUITests.swift; sourceTree = "<group>"; };
+		CF396F2D23905C18007904FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF396EFF23905C15007904FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF396F1923905C18007904FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF396F2423905C18007904FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF396EF923905C15007904FB = {
+			isa = PBXGroup;
+			children = (
+				CF396F0423905C15007904FB /* Circle Boss */,
+				CF396F1F23905C18007904FB /* Circle BossTests */,
+				CF396F2A23905C18007904FB /* Circle BossUITests */,
+				CF396F0323905C15007904FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF396F0323905C15007904FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF396F0223905C15007904FB /* Circle Boss.app */,
+				CF396F1C23905C18007904FB /* Circle BossTests.xctest */,
+				CF396F2723905C18007904FB /* Circle BossUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF396F0423905C15007904FB /* Circle Boss */ = {
+			isa = PBXGroup;
+			children = (
+				CF396F0523905C15007904FB /* AppDelegate.swift */,
+				CF396F0723905C15007904FB /* GameScene.sks */,
+				CF396F0923905C15007904FB /* Actions.sks */,
+				CF396F0B23905C15007904FB /* GameScene.swift */,
+				CF396F0D23905C15007904FB /* GameViewController.swift */,
+				CF396F0F23905C15007904FB /* Main.storyboard */,
+				CF396F1223905C18007904FB /* Assets.xcassets */,
+				CF396F1423905C18007904FB /* LaunchScreen.storyboard */,
+				CF396F1723905C18007904FB /* Info.plist */,
+			);
+			path = "Circle Boss";
+			sourceTree = "<group>";
+		};
+		CF396F1F23905C18007904FB /* Circle BossTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF396F2023905C18007904FB /* Circle_BossTests.swift */,
+				CF396F2223905C18007904FB /* Info.plist */,
+			);
+			path = "Circle BossTests";
+			sourceTree = "<group>";
+		};
+		CF396F2A23905C18007904FB /* Circle BossUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF396F2B23905C18007904FB /* Circle_BossUITests.swift */,
+				CF396F2D23905C18007904FB /* Info.plist */,
+			);
+			path = "Circle BossUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF396F0123905C15007904FB /* Circle Boss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF396F3023905C18007904FB /* Build configuration list for PBXNativeTarget "Circle Boss" */;
+			buildPhases = (
+				CF396EFE23905C15007904FB /* Sources */,
+				CF396EFF23905C15007904FB /* Frameworks */,
+				CF396F0023905C15007904FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Circle Boss";
+			productName = "Circle Boss";
+			productReference = CF396F0223905C15007904FB /* Circle Boss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF396F1B23905C18007904FB /* Circle BossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF396F3323905C18007904FB /* Build configuration list for PBXNativeTarget "Circle BossTests" */;
+			buildPhases = (
+				CF396F1823905C18007904FB /* Sources */,
+				CF396F1923905C18007904FB /* Frameworks */,
+				CF396F1A23905C18007904FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF396F1E23905C18007904FB /* PBXTargetDependency */,
+			);
+			name = "Circle BossTests";
+			productName = "Circle BossTests";
+			productReference = CF396F1C23905C18007904FB /* Circle BossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF396F2623905C18007904FB /* Circle BossUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF396F3623905C18007904FB /* Build configuration list for PBXNativeTarget "Circle BossUITests" */;
+			buildPhases = (
+				CF396F2323905C18007904FB /* Sources */,
+				CF396F2423905C18007904FB /* Frameworks */,
+				CF396F2523905C18007904FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF396F2923905C18007904FB /* PBXTargetDependency */,
+			);
+			name = "Circle BossUITests";
+			productName = "Circle BossUITests";
+			productReference = CF396F2723905C18007904FB /* Circle BossUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF396EFA23905C15007904FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Yasin Aktimur";
+				TargetAttributes = {
+					CF396F0123905C15007904FB = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					CF396F1B23905C18007904FB = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CF396F0123905C15007904FB;
+					};
+					CF396F2623905C18007904FB = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CF396F0123905C15007904FB;
+					};
+				};
+			};
+			buildConfigurationList = CF396EFD23905C15007904FB /* Build configuration list for PBXProject "Circle Boss" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF396EF923905C15007904FB;
+			productRefGroup = CF396F0323905C15007904FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF396F0123905C15007904FB /* Circle Boss */,
+				CF396F1B23905C18007904FB /* Circle BossTests */,
+				CF396F2623905C18007904FB /* Circle BossUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF396F0023905C15007904FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF396F1123905C15007904FB /* Main.storyboard in Resources */,
+				CF396F0823905C15007904FB /* GameScene.sks in Resources */,
+				CF396F1323905C18007904FB /* Assets.xcassets in Resources */,
+				CF396F1623905C18007904FB /* LaunchScreen.storyboard in Resources */,
+				CF396F0A23905C15007904FB /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF396F1A23905C18007904FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF396F2523905C18007904FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF396EFE23905C15007904FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF396F0C23905C15007904FB /* GameScene.swift in Sources */,
+				CF396F0E23905C15007904FB /* GameViewController.swift in Sources */,
+				CF396F0623905C15007904FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF396F1823905C18007904FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF396F2123905C18007904FB /* Circle_BossTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF396F2323905C18007904FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF396F2C23905C18007904FB /* Circle_BossUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF396F1E23905C18007904FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF396F0123905C15007904FB /* Circle Boss */;
+			targetProxy = CF396F1D23905C18007904FB /* PBXContainerItemProxy */;
+		};
+		CF396F2923905C18007904FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF396F0123905C15007904FB /* Circle Boss */;
+			targetProxy = CF396F2823905C18007904FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF396F0F23905C15007904FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF396F1023905C15007904FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF396F1423905C18007904FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF396F1523905C18007904FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF396F2E23905C18007904FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF396F2F23905C18007904FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF396F3123905C18007904FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKW82A86BM;
+				INFOPLIST_FILE = "Circle Boss/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoymax.Circle-Boss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF396F3223905C18007904FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKW82A86BM;
+				INFOPLIST_FILE = "Circle Boss/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoymax.Circle-Boss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF396F3423905C18007904FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKW82A86BM;
+				INFOPLIST_FILE = "Circle BossTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoymax.Circle-BossTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circle Boss.app/Circle Boss";
+			};
+			name = Debug;
+		};
+		CF396F3523905C18007904FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKW82A86BM;
+				INFOPLIST_FILE = "Circle BossTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoymax.Circle-BossTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circle Boss.app/Circle Boss";
+			};
+			name = Release;
+		};
+		CF396F3723905C18007904FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKW82A86BM;
+				INFOPLIST_FILE = "Circle BossUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoymax.Circle-BossUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Circle Boss";
+			};
+			name = Debug;
+		};
+		CF396F3823905C18007904FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GKW82A86BM;
+				INFOPLIST_FILE = "Circle BossUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enjoymax.Circle-BossUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Circle Boss";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF396EFD23905C15007904FB /* Build configuration list for PBXProject "Circle Boss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF396F2E23905C18007904FB /* Debug */,
+				CF396F2F23905C18007904FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF396F3023905C18007904FB /* Build configuration list for PBXNativeTarget "Circle Boss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF396F3123905C18007904FB /* Debug */,
+				CF396F3223905C18007904FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF396F3323905C18007904FB /* Build configuration list for PBXNativeTarget "Circle BossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF396F3423905C18007904FB /* Debug */,
+				CF396F3523905C18007904FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF396F3623905C18007904FB /* Build configuration list for PBXNativeTarget "Circle BossUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF396F3723905C18007904FB /* Debug */,
+				CF396F3823905C18007904FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF396EFA23905C15007904FB /* Project object */;
+}
