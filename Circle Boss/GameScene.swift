@@ -8,13 +8,21 @@
 
 import SpriteKit
 import GameplayKit
+import UIKit
+
 
 class GameScene: SKScene {
     
     var mycircle :SKShapeNode!
+    
+    var outCircle:SKShapeNode!
+    var inCircle:SKSpriteNode!
+    
+    
     var  hasgone = false
     override func didMove(to view: SKView) {
         
+        self.backgroundColor = UIColor(rgb: 0x353535)
         
         mycircle = SKShapeNode(circleOfRadius: 100 ) // Create circle
         mycircle.position = CGPoint(x: 0, y: 0)  // Center (given scene anchor point is 0.5 for x&y)
@@ -22,6 +30,22 @@ class GameScene: SKScene {
         mycircle.glowWidth = 1.0
         mycircle.fillColor = SKColor.orange
         addChild(mycircle)
+        
+        
+        
+        outCircle = SKShapeNode(circleOfRadius: 230 ) // Create circle
+        outCircle.position = CGPoint(x: 0, y: 0)  // Center (given scene anchor point is 0.5 for x&y)
+        outCircle.strokeColor = SKColor.black
+        //outCircle.glowWidth = 20.0
+        outCircle.lineWidth = 13.0
+        //outCircle.fillColor = SKColor.red
+        addChild(outCircle)
+        
+        
+        
+        
+        
+        
         
         
         //mycircle = childNode(withName: "circle") as! SKSpriteNode
@@ -34,7 +58,7 @@ class GameScene: SKScene {
          print("touchesBegan")
         
        mycircle.removeAllActions()
-        let ScalePBup = SKAction.scaleX(to: 5, y: 5, duration: 2)
+        let ScalePBup = SKAction.scaleX(to: 6, y: 6, duration: 2)
             mycircle.run(ScalePBup)
             
     }

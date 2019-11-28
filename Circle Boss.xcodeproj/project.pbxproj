@@ -17,6 +17,7 @@
 		CF396F1623905C18007904FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF396F1423905C18007904FB /* LaunchScreen.storyboard */; };
 		CF396F2123905C18007904FB /* Circle_BossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF396F2023905C18007904FB /* Circle_BossTests.swift */; };
 		CF396F2C23905C18007904FB /* Circle_BossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF396F2B23905C18007904FB /* Circle_BossUITests.swift */; };
+		CF396F3A23907091007904FB /* others.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF396F3923907091007904FB /* others.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CF396F2723905C18007904FB /* Circle BossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circle BossUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF396F2B23905C18007904FB /* Circle_BossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle_BossUITests.swift; sourceTree = "<group>"; };
 		CF396F2D23905C18007904FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF396F3923907091007904FB /* others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = others.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				CF396F1223905C18007904FB /* Assets.xcassets */,
 				CF396F1423905C18007904FB /* LaunchScreen.storyboard */,
 				CF396F1723905C18007904FB /* Info.plist */,
+				CF396F3923907091007904FB /* others.swift */,
 			);
 			path = "Circle Boss";
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF396F3A23907091007904FB /* others.swift in Sources */,
 				CF396F0C23905C15007904FB /* GameScene.swift in Sources */,
 				CF396F0E23905C15007904FB /* GameViewController.swift in Sources */,
 				CF396F0623905C15007904FB /* AppDelegate.swift in Sources */,
